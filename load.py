@@ -8,7 +8,7 @@ List1 = [8, 9, 3, 6, 1, 10]
 List1.reverse()
 print("The reversed list is", List1)
 
-List2 = [81, 92, 33, 64, 11, 101]
+List2 = [81, 92, 33, 64, 11, 101,504]
 List2.sort()
 print("The sorted list is", List2)
 
