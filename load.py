@@ -13,3 +13,5 @@ List3 = []
 List3 = List1.copy()
 print("The copy list" ,  List3)
 
+Indexvalue = List2[2:6]
+print("The index value " , Indexvalue)
