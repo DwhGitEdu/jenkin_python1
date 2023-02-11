@@ -1,17 +1,13 @@
 
-import os
 
-List1 = [8, 9, 3, 6, 1, 10]
-List1.reverse()
-print("The reversed list is", List1)
+def test_add():
+    assert add(2,3) == 5
 
-List2 = [81, 92, 33, 64, 11, 101,504]
-List2.sort()
-print("The sorted list is", List2)
+def test_subtract():
+    assert subtract(2, 3) == -1
 
-List3 = []
-List3 = List1.copy()
-print("The copy list", List3)
+def test_multiply():
+    assert multiply(2, 3) == 6
 
-Indexvalue = List2[2:6]
-print("The index value ", Indexvalue)
+def test_divide():
+    assert divide(10,5) == 2
