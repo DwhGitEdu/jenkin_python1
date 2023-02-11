@@ -18,3 +18,9 @@ print("The copy list", List3)
 
 Indexvalue = List2[2:6]
 print("The index value ", Indexvalue)
+
+import pandas
+df = pandas.DataFrame(data={"col1": List1, "col2": List2})
+
+df.to_csv("C:/Users/EDUARDO/Desktop/05_REPOS/99_EXPORT_FILES/file.csv", sep=',',index=False)
+
